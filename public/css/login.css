@@ -1,0 +1,70 @@
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+.form-signin h2{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+   padding: 12px; 
+
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin .input-group-addon {
+  height: 20px;
+ 
+}
+
+.input-group, #select{
+  padding-top: 10px;
+}
+
+.form-signin #con{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.form-signin #remember {
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* Para Autocomplete Direcciones*/
+.pac-container{
+  /* Disclaimer: not needed to show 'powered by Google' if also a Google Map is shown */
+  background-image: none !important;
+  z-index: 2147483647;
+
+}
+
+.pac-container:after {
+  /* Disclaimer: not needed to show 'powered by Google' if also a Google Map is shown */
+  background-image: none !important;
+  height: 0px;
+}
+
+#fechaI{
+  cursor: pointer;
+}
+
+strong{
+  color: #F44336;
+  font-size: 12px;
+}
+
+.btn-file{
+  padding: 12px;
+}
